@@ -1,0 +1,32 @@
+{
+  "name": "gpt-voice-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts --watch"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa-router": "^7.4.4",
+    "dotenv": "^16.0.3",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "openai": "^3.2.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-logger": "^3.1.2",
+    "@types/node": "^18.15.5",
+    "typescript": "^5.0.2"
+  }
+}
